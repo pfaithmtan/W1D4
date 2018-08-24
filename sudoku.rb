@@ -109,6 +109,7 @@ class Tile
       @value = new_value
     end
   end
+end
 
 class SudokuGame
   def self.from_file(filename)
